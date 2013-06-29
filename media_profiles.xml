@@ -118,7 +118,7 @@
                    bitRate="5000000"
                    width="720"
                    height="480"
-                   frameRate="30" />
+                   frameRate="15" />
             <Audio codec="aac"
                    bitRate="96000"
                    sampleRate="48000"
@@ -130,7 +130,7 @@
                    bitRate="8000000"
                    width="1280"
                    height="720"
-                   frameRate="30" />
+                   frameRate="15" />
             <Audio codec="aac"
                    bitRate="96000"
                    sampleRate="48000"
