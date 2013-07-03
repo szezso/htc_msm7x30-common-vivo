@@ -34,6 +34,7 @@ TARGET_EXTRA_CFLAGS += $(call cc-option,-march=armv7-a -mtune=cortex-a8)
 TARGET_GLOBAL_CFLAGS += -mfpu=neon -mcpu=cortex-a8 -mtune=cortex-a8 -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mcpu=cortex-a8 -mtune=cortex-a8 -mfloat-abi=softfp
 TARGET_USE_SPARROW_BIONIC_OPTIMIZATION := true
+TARGET_USE_SCORPION_BIONIC_OPTIMIZATION := true
 TARGET_USE_KRAIT_PLD_SET := true
 TARGET_KRAIT_BIONIC_PLDOFFS := 10
 TARGET_KRAIT_BIONIC_PLDTHRESH := 10
@@ -72,6 +73,7 @@ BOARD_EGL_NEEDS_LEGACY_FB := true
 TARGET_QCOM_DISPLAY_VARIANT := legacy
 TARGET_NO_HW_VSYNC := true
 TARGET_QCOM_AUDIO_VARIANT := caf
+TARGET_QCOM_MEDIA_VARIANT := caf
 
 # QCOM
 COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE
