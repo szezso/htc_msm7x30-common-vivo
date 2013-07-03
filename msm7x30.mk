@@ -45,8 +45,7 @@ PRODUCT_COPY_FILES += \
 # media configs
 PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/media_profiles.xml:system/etc/media_profiles.xml \
-    device/htc/msm7x30-common/media_codecs.xml:system/etc/media_codecs.xml \
-    device/htc/msm7x30-common/audio_policy.conf:system/etc/audio_policy.conf
+    device/htc/msm7x30-common/media_codecs.xml:system/etc/media_codecs.xml 
 
 # adb hack
 PRODUCT_COPY_FILES += \
@@ -58,6 +57,7 @@ PRODUCT_PACKAGE_OVERLAYS += device/htc/msm7x30-common/overlay
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
     audio.primary.msm7x30 \
+    audio_policy.conf \ 
     audio.usb.default \
     libaudioutils \
     libtinyalsa
