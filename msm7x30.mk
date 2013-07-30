@@ -59,6 +59,7 @@ PRODUCT_PACKAGES += \
     audio.a2dp.default \
     audio.primary.msm7x30 \
     audio.usb.default \
+    audio_policy.conf \
     libaudioutils \
     libtinyalsa
 
