@@ -58,13 +58,16 @@ PRODUCT_PACKAGE_OVERLAYS += device/htc/msm7x30-common/overlay
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
     audio.primary.msm7x30 \
+    audio_policy.msm7x30 \
     audio.usb.default \
     audio_policy.conf \
     libaudioutils \
+    libaudio-resampler \
     libtinyalsa
 
 # Video
 PRODUCT_PACKAGES += \
+    libc2dcolorconvert \
     copybit.msm7x30 \
     gralloc.msm7x30 \
     hwcomposer.msm7x30 \
@@ -72,8 +75,7 @@ PRODUCT_PACKAGES += \
     libmemalloc \
     liboverlay \
     libQcomUI \
-    libtilerenderer \
-    libdashplayer
+    libtilerenderer
 
 #wireless
 PRODUCT_PACKAGES += \
