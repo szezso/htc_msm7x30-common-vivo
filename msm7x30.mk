@@ -63,7 +63,8 @@ PRODUCT_PACKAGES += \
     audio_policy.conf \
     libaudioutils \
     libaudio-resampler \
-    libtinyalsa
+    libtinyalsa \
+    libaudioparameter
 
 # Video
 PRODUCT_PACKAGES += \
