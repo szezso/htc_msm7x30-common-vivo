@@ -98,6 +98,7 @@ PRODUCT_PACKAGES += \
 # Misc
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory \
+    libwebcore \
     libsurfaceflinger_client
 
 # Live Wallpapers
