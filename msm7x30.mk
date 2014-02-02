@@ -42,13 +42,13 @@ PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/firmware/vidc_720p_mp4_enc_mc.fw:system/etc/firmware/vidc_720p_mp4_enc_mc.fw \
     device/htc/msm7x30-common/firmware/vidc_720p_vc1_dec_mc.fw:system/etc/firmware/vidc_720p_vc1_dec_mc.fw 
 
-# media configs
+# Media configs
 PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/media_profiles.xml:system/etc/media_profiles.xml \
     device/htc/msm7x30-common/media_codecs.xml:system/etc/media_codecs.xml \
     device/htc/msm7x30-common/audio_policy.conf:system/etc/audio_policy.conf
 
-# adb hack
+# ADB hack
 PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/prebuilt/20fixup:system/etc/init.d/20fixup
 
@@ -78,9 +78,13 @@ PRODUCT_PACKAGES += \
     libQcomUI \
     libtilerenderer
 
-#wireless
+# Wireless
 PRODUCT_PACKAGES += \
     libnetcmdiface
+
+# CameraWrapper
+PRODUCT_PACKAGES += \
+    camera.msm7x30
 
 # Power HAL
 PRODUCT_PACKAGES += \
